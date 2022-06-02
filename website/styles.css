@@ -1,0 +1,154 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+    margin: 0;
+    font-weight: bold;
+    font-family: 'Raleway',
+        sans-serif;
+    background-image: url('mypic.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+
+}
+
+#app {
+    background-color: #000000d0;
+    color: white;
+    padding: 3em;
+    border-radius: 30px;
+    width: 100%;
+    max-width: 420px;
+    margin: 100px;
+    height: 55vh;
+}
+
+label {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+h2 {
+    text-align: center;
+}
+
+
+.holder_headline {
+    font-size: larger;
+    justify-content: center;
+    align-items: center;
+}
+
+#zip {
+    padding: 0.5em;
+    border-radius: 18px;
+    background-color: #7c7c7c2b;
+    color: white;
+    font-family: 'Raleway',
+        sans-serif;
+    width: 100%;
+    margin-top: 15px;
+
+}
+
+#feelings {
+    border-radius: 18px;
+    background-color: #7c7c7c2b;
+    color: white;
+    padding: 0.5em;
+    font-size: 14pt;
+    font-family: 'Raleway',
+        sans-serif;
+    width: 100%;
+    margin-top: 15px;
+
+}
+
+
+#zip::placeholder {
+    color: white;
+    font-family: 'Raleway',
+        sans-serif;
+    font-weight: lighter;
+    font-size: 12pt;
+
+}
+
+#feelings::placeholder {
+    color: white;
+    font-family: 'Raleway',
+        sans-serif;
+    font-size: 14pt;
+}
+
+#error {
+    background-color: #cce6ff;
+    color: #707070;
+    font-size: large;
+    width: 22%;
+    text-align: center;
+    margin: 0px auto 12px;
+    border-radius: 1px 0px 30px 30px;
+    display: block;
+}
+
+
+
+
+#entry {
+    background-color: #000000d0;
+    color: white;
+    padding: 3em;
+    border-radius: 30px;
+    margin: auto auto;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    text-align: center;
+    transition: all 2s ease;
+    opacity: 0;
+
+}
+
+.title {
+    padding: 10px;
+    text-align: center;
+    font-size: 17pt;
+    color: #cce6ff;
+}
+
+#entryHolder {
+    padding: 10px;
+    text-align: center;
+    font-size: 14pt;
+    color: black;
+    background-color: #cce6ff;
+    border-radius: 15px;
+}
+
+textarea {
+    width: 416px;
+    height: 143px;
+}
+
+
+#generate {
+    border-radius: 18px;
+    background-color: #000000d0;
+    color: white;
+    padding: 1em;
+    text-align: center;
+    display: flex;
+    font-family: 'Raleway',
+        sans-serif;
+    font-weight: 500;
+    font-size: 11pt;
+    cursor: pointer;
+    width: 25%;
+    height: 55px;
+    margin-top: 5em;
+    margin-bottom: 1em;
+}
